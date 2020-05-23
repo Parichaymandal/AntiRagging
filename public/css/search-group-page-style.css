@@ -1,0 +1,49 @@
+/*Cover section style starts*/
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #e3e5e8;
+}
+
+.cover {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 780px) {
+    .cover {
+        margin-top: 8%;
+    }
+}
+
+/*Search box style starts*/
+#search_box {
+    margin-top: 1%;
+}
+
+#search_box h1{
+    text-align: center;
+}
+
+/*Group style starts*/
+
+.total-group {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.group-container {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.group-style h1 {
+    text-align: center;
+}

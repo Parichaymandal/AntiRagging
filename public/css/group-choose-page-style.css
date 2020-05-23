@@ -1,0 +1,28 @@
+/*Cover section style starts*/
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #e3e5e8;
+}
+
+.cover {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 780px) {
+    .cover {
+        margin-top: 8%;
+    }
+}
+
+/*Group button area starts*/
+.groupButtonArea {
+    height: 250px;
+    background-color: #e3e5e8;
+}
+
+.center-btn {
+
+    margin-top: 5%;
+    padding-left: 12%;
+}

@@ -1,0 +1,58 @@
+
+
+/*******  Main container section starts ******/
+.sign-log-background {
+    position: relative;
+}
+
+.sign-log-background:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url("../images/signin_login_background.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+/*******  Main container section ends  ******/
+
+
+.well{
+    margin-top: 7%;
+    background-color: #474A51;
+    border-color: #565962 transparent;
+    color: white;
+    border-radius: 3%;
+    height: auto;
+}
+
+@media screen and (max-width: 980px) {
+    .well{
+        margin-top: 25%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: #474A51;
+        border-color: #565962 transparent;
+        color: white;
+        height: auto;
+    }
+}
+
+/*.vertical-line {
+    height: 500px;
+    border-left: thick solid #f7f7f7;
+    margin-left: 60px;
+    margin-top: 220px;
+}*/

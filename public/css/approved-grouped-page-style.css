@@ -1,0 +1,110 @@
+/*Cover section style starts*/
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #e3e5e8;
+}
+
+.cover {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 780px) {
+    .cover {
+        margin-top: 8%;
+    }
+}
+
+/*Group post section style starts*/
+.givePostArea {
+    margin-top: 20px;
+    height: 280px;
+    background-color: #c7cbd1;
+    border-radius: 10px;
+}
+
+.givePostTitleArea {
+    text-align: center;
+}
+
+.seeAllPostArea {
+    margin-top: 20px;
+    height: 1000px;
+    background-color: #c7cbd1;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.allPostTitleArea {
+    text-align: center;
+}
+
+.singlePost {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #f1f2f3;
+    border-radius: 10px;
+}
+
+.singlePostDescription {
+    background-color: #c8cbd0;
+    height: auto;
+    border-radius: 5px;
+}
+
+.singlePostPreviousComment {
+    margin-top: 10px;
+    height: auto;
+    background-color: #c8cbd0;
+    border-radius: 5px;
+}
+
+.myCommentSection {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    background-color: #c8cbd0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.allCommentTitleArea {
+    text-align: center;
+}
+
+.comment-btn {
+    margin-top: 5px;
+}
+
+/*Available members style section starts*/
+.available-members-section {
+    margin-top: 20px;
+    height: 1300px;
+    background-color: #c7cbd1;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .available-members-section {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 1300px;
+        background-color: #c7cbd1;
+        border-radius: 10px;
+    }
+}
+
+.available-members-section ul{
+    margin-left: -40px;
+}
+
+.available-members-section ul li{
+    list-style-type: none;
+    padding: 15px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}

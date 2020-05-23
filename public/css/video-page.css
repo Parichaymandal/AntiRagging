@@ -1,0 +1,32 @@
+body{
+    background-color: #e3e5e8;
+}
+
+.page-heading {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.singlePostPreviousComment {
+    margin-top: 10px;
+    height: auto;
+    background-color: #c8cbd0;
+    border-radius: 5px;
+}
+
+.allCommentTitleArea {
+    text-align: center;
+}
+
+.myCommentSection {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    background-color: #c8cbd0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.comment-btn {
+    margin-top: 5px;
+}

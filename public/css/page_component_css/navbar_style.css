@@ -1,0 +1,70 @@
+/*.btn {
+    border: 0 none;
+    border-radius: 0;
+}*/
+
+/*******Navbar style region starts*******/
+/* navbar */
+.navbar-default {
+    background-color: #00b33c;
+    border-color: #00b30c;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #b3ffcc;
+    font-size: 1.5em;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #3d5c5c;
+    background-color:  #4dff88;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #b3ffcc;
+    font-size: 1.1em;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #3d5c5c;
+    background-color:  #4dff88;
+}
+
+/*Navbar toggle style*/
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #009933;
+    background-image: none;
+    border: 1px solid #009940;
+    border-radius: 0px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #009933;
+}
+
+/*Navbar icon bar style*/
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000d33;
+}
+
+/*My custom style*/
+ul.nav > li {
+    border-right: 1px solid white;
+}
+ul.nav > li:first-child{
+    border-left: 1px solid white;
+}
+
+/*******Navbar style region ends*******/

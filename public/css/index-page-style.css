@@ -1,0 +1,55 @@
+/*******Carousel slider style begins*******/
+.carousel-inner > .item > img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 37%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+.carousel-caption h3{
+    font-size: 1.9em;
+}
+.carousel-caption p{
+    font-size: 1.3em;
+}
+/*******Carousel slider style ends*******/
+
+
+/*******Present article title section style starts*******/
+
+.article {
+    background-color: #e3e5e8;
+}
+
+.article-title {
+    height: 75px;
+}
+
+.article-title h1 {
+    font-style: italic;
+    text-align: center;
+}
+
+.article-description {
+    height: auto;
+}
+
+.article-description p {
+    font-size: 16px;
+}
+
+/*******Present article title section style ends*******/
+
+
+

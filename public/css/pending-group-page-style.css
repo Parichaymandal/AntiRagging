@@ -1,0 +1,39 @@
+/*Cover section style starts*/
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #e3e5e8;
+}
+
+.cover {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 780px) {
+    .cover {
+        margin-top: 8%;
+    }
+}
+
+/*Pending group area style starts*/
+.group-container {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.group-style h1 {
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+}

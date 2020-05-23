@@ -1,0 +1,79 @@
+/*Cover section style starts*/
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #ccffcc;
+}
+
+.cover {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 780px) {
+    .cover {
+        margin-top: 8%;
+    }
+}
+
+/**/
+.article-background {
+    background-color: #e3e5e8;
+}
+
+.seeAllPostArea {
+    height: auto;
+    border-radius: 10px;
+}
+
+.allPostTitleArea {
+    text-align: center;
+}
+
+.singlePost {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #f1f2f3;
+    border-radius: 10px;
+}
+
+.singlePostDescription {
+    background-color: #c8cbd0;
+    height: auto;
+    border-radius: 5px;
+}
+
+.singlePostDescription h2{
+    text-align: center;
+}
+
+.singlePostPreviousComment {
+    margin-top: 10px;
+    height: auto;
+    background-color: #c8cbd0;
+    border-radius: 5px;
+}
+
+.allCommentTitleArea {
+    text-align: center;
+}
+
+.myCommentSection {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    background-color: #c8cbd0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .myCommentSection {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 110px;
+        background-color: #c8cbd0;
+        border-radius: 5px;
+        padding: 10px;
+    }
+}
